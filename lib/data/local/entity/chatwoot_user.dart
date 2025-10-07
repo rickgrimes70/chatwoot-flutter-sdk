@@ -57,3 +57,4 @@ class ChatwootUser extends Equatable {
 
   Map<String, dynamic> toJson() => _$ChatwootUserToJson(this);
 }
+//

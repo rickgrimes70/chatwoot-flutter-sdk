@@ -43,3 +43,4 @@ class ChatwootConversation extends Equatable {
   @override
   List<Object?> get props => [id, inboxId, messages, contact];
 }
+//

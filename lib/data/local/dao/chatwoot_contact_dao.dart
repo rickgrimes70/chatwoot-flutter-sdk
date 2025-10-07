@@ -8,7 +8,7 @@ abstract class ChatwootContactDao {
   ChatwootContact? getContact();
   Future<void> deleteContact();
   Future<void> onDispose();
-  Future<void> clearAll();
+  Future<void> clearAll(); 
 }
 
 //Only used when persistence is enabled
